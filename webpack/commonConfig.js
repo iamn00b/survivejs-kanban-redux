@@ -20,6 +20,9 @@ module.exports = function(options) {
         }
       ]
     },
+    resolve: {
+      extensions: ['', '.js', '.jsx']
+    },
     plugins: [
       new HtmlWebpackPlugin({
         template: require('html-webpack-template'),

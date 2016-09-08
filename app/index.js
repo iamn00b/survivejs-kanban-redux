@@ -3,13 +3,6 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
-type TestComponentPropType = {
-  name?: string
-};
-
-function TestComponent({ name='Hello world' }: TestComponentPropType) {
-  return <h1>{name}</h1>;
-}
-
-ReactDOM.render(<TestComponent />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));

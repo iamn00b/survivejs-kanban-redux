@@ -1,0 +1,35 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "marlint app/",
+    "build": "webpack",
+    "start": "npm run dev:dashboard",
+    "dev": "webpack-dev-server",
+    "dev:dashboard": "webpack-dashboard -- webpack-dev-server"
+  },
+  "author": "iamn00b",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "html-webpack-plugin": "^2.22.0",
+    "marlint": "^2.1.0",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "^0.1.7",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.7"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.0"
+  }
+}

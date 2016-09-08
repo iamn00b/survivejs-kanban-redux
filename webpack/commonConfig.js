@@ -22,7 +22,10 @@ module.exports = function(options) {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        title: 'React Playground'
+        template: require('html-webpack-template'),
+        title: 'React Playground',
+        appMountId: 'app',
+        inject: false
       }),
       new DashboardPlugin()
     ]

@@ -20,6 +20,7 @@
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
     "html-webpack-plugin": "^2.22.0",
+    "html-webpack-template": "^5.1.1",
     "marlint": "^2.1.0",
     "transform-loader": "^0.2.3",
     "webpack": "^1.13.2",

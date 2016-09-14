@@ -1,0 +1,2 @@
+[options]
+module.name_mapper='^\(.*\)\.css$' -> '<PROJECT_ROOT>/flow_modules/CSSModule.js.flow'

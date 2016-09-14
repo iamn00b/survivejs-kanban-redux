@@ -5,4 +5,4 @@ type NoteState = {
 
 type NotesState = Array<NoteState>;
 
-export { NoteState, NotesState };
+export type { NoteState, NotesState };

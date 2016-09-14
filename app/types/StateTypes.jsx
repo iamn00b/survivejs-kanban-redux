@@ -1,8 +1,6 @@
-type NoteState = {
+export type NoteState = {
   id: string;
   notes: string;
 }
 
-type NotesState = Array<NoteState>;
-
-export type { NoteState, NotesState };
+export type NotesState = Array<NoteState>;

@@ -17,6 +17,14 @@ module.exports = function(options) {
           test: /\.jsx?$/,
           include: options.path.app,
           loader: 'babel-loader'
+        },
+        {
+          test:   /\.css$/,
+          include: options.path.app,
+          loaders: [
+            'style?sourceMap',
+            'css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]'
+          ]
         }
       ]
     },
